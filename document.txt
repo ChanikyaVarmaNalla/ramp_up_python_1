@@ -7,6 +7,8 @@ Hi Mary,
 
 I hope you're doing well. I wanted to discuss the agenda for our upcoming meeting scheduled for next week.
 
+Here is the email to respond to abcdef@mymail.com
+
 Best regards,
 John
 
@@ -29,7 +31,7 @@ Support Team
 ---
 
 From: alice@example.net
-To: bob@example.com
+To: bob@example.gov.in
 Subject: Weekend Plans
 Date: 2023-09-13 05:15 PM
 
