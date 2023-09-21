@@ -16,8 +16,10 @@ Task 2:
 
 Task 3:
 1. Created a class EmailExtractor to handle email address extraction. In the class's constructor (__init__ method), initialized attributes including file_path (path to the text document) and email_pattern (a regular expression pattern to match email addresses).
-2. Defined the extract_emails method to extract email addresses from the text document: Opened the text document specified in file_path. Read the document line by line. Used the re.findall function with email_pattern to find all email addresses in each line. Added the extracted email addresses to the emails list.
-4. Inside the main block: Created an instance email_extractor of the EmailExtractor class, specifying the path to 'document.txt' as the argument. Called the extract_emails method to extract email addresses and stored them in email_addresses. Printed each extracted email address.
+2. Defined the extract_emails method to extract email addresses from the text document: Opened the text document specified in file_path. Read the document line by line.
+3. Used the re.findall function with email_pattern to find all email addresses in each line. Added the extracted email addresses to the emails list.
+4. Inside the main block: Created an instance email_extractor of the EmailExtractor class, specifying the path to 'document.txt' as the argument.
+5. Called the extract_emails method to extract email addresses and stored them in email_addresses. Printed each extracted email address.
 
 Task 4:
 1. Created a class Employee to represent employees with an __init__ method that initializes the employee attribute and a get_info method to return information about all employees.
