@@ -1,0 +1,41 @@
+From: john.doe@example.co.in
+To: mary.smith@example.net
+Subject: Meeting Agenda
+Date: 2023-09-15 09:30 AM
+
+Hi Mary,
+
+I hope you're doing well. I wanted to discuss the agenda for our upcoming meeting scheduled for next week.
+
+Best regards,
+John
+
+---
+
+From: support@company.com
+To: customer@example.org
+Subject: Re: Technical Support Request
+Date: 2023-09-14 03:45 PM
+
+Dear Customer,
+
+Thank you for contacting us. We are actively working on resolving your technical support request.
+
+Please let us know if you have any further questions or concerns.
+
+Sincerely,
+Support Team
+
+---
+
+From: alice@example.net
+To: bob@example.com
+Subject: Weekend Plans
+Date: 2023-09-13 05:15 PM
+
+Hey Bob,
+
+Any plans for the weekend? Let's catch up!
+
+Cheers,
+Alice
