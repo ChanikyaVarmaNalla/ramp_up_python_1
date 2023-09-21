@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "name": "Tony Stark",
+      "age": 40,
+      "experience": 15,
+      "salary": 1000000,
+      "id": 1,
+      "position": "Manager"
+    },
+    {
+      "name": "Steve Rogers",
+      "age": 100,
+      "experience": 70,
+      "salary": 500000,
+      "id": 2,
+      "position": "Manager"
+    },
+    {
+      "name": "Natasha Romanoff",
+      "age": 35,
+      "experience": 10,
+      "salary": 800000,
+      "id": 3,
+      "position": "Developer"
+    },
+    {
+      "name": "Thor Odinson",
+      "age": 1500,
+      "experience": 1000,
+      "salary": 2000000,
+      "id": 4,
+      "position": "Manager"
+    },
+    {
+      "name": "Peter Parker",
+      "age": 21,
+      "experience": 3,
+      "salary": 300000,
+      "id": 5,
+      "position": "Developer"
+    },
+    {
+      "name": "Bruce Banner",
+      "age": 45,
+      "experience": 20,
+      "salary": 1500000,
+      "id": 6,
+      "position": "Developer"
+    },
+    {
+      "name": "Wanda Maximoff",
+      "age": 30,
+      "experience": 5,
+      "salary": 600000,
+      "id": 7,
+      "position": "Developer"
+    },
+    {
+      "name": "Clint Barton",
+      "age": 40,
+      "experience": 15,
+      "salary": 700000,
+      "id": 8,
+      "position": "Developer"
+    },
+    {
+      "name": "T'Challa Wakanda",
+      "age": 35,
+      "experience": 10,
+      "salary": 900000,
+      "id": 9,
+      "position": "Manager"
+    },
+    {
+      "name": "Stephen Strange",
+      "age": 45,
+      "experience": 8,
+      "salary": 1200000,
+      "id": 10,
+      "position": "Manager"
+    }
+  ]
+}
