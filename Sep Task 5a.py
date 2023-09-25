@@ -46,7 +46,7 @@ display_students(deep_copy)
 
 # Modify a student's name in the deep copied list
 deep_copy[1]['name'] = 'Bobby'
-deep_copy.pop(-1)   # Removed the last element details
+deep_copy.pop()   # Removed the last element details
 
 # Add a new student to the deep copied list
 new_student_deep = {'name': 'Eva (Deep)', 'age': 23}
