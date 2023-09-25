@@ -28,3 +28,19 @@ Task 4:
 4. Opened a JSON file ("employee_data.json") and loaded its contents into the data variable.
 5. Created an instance mana of the Manager class with the data loaded from the JSON file. Called the get_info method on mana to print information about employees who are Managers.
 6. Created an instance deve of the Developer class with the data loaded from the JSON file. Called the get_info method on deve to print information about employees who are Developers.
+
+Task 5a:
+1. Created a list of student dictionaries.
+2. Made a shallow copy of the list by assigning it to another variable. Changes to the shallow copy affected the original list.
+3. Created a deep copy of the original list using copy.deepcopy(). Changes to the deep copy did not affect the original list.
+4. Modified and added items to both the shallow copy and deep copy.
+5. Observed that changes in the shallow copy affected the original list, while changes in the deep copy did not.
+
+Task 5b:
+1. Defined a function display_config(config) to display configuration information. This function iterates through a list and prints its items.
+2. Defined the production configuration as a list called production_config containing server names.
+3. Displayed the original production configuration using the display_config function.
+4. Created a deep copy of the production configuration for testing purposes using copy.deepcopy(production_config).
+5. Modified the test configuration by appending 'Test Server 4' to the deep copy.
+6. Displayed the test configuration to observe the changes.
+7. Confirmed that the original production configuration remains unchanged by displaying it again.
