@@ -44,3 +44,20 @@ Task 5b:
 5. Modified the test configuration by appending 'Test Server 4' to the deep copy.
 6. Displayed the test configuration to observe the changes.
 7. Confirmed that the original production configuration remains unchanged by displaying it again.
+
+Task 6:
+1. Created a UserProfile class to manage user profiles. An instance of this class was initialized with a username, email, and age.
+2. Retrieved the existing profile data using the get_profile method and stored it in the old_profile variable. This data was then displayed on the screen.
+3. Updated user profile details by modifying user information, which included changing the email and age, and adding extra details such as "city" and "hobbies."
+4. The update_profile method was applied to update the user's profile using the information from new_data. This method handled email and age updates separately and merged any additional data into the profile.
+5. Obtained the updated profile data using the get_profile method and stored it in the updated_profile variable. The updated profile information was subsequently displayed on the screen.
+
+Task 7:
+1. An instance of the BlogPostCMS class is created, setting up the content management system. The code checks for the existence of a "blog_posts" directory; if it doesn't exist, the code creates it to store blog posts.
+2. User input is collected for the title and content of a new blog post. The code verifies if a blog post with the same title already exists in the "blog_posts" directory.
+3. If the same-title blog post exists, the code notifies the user; otherwise, a new blog post file is generated with the provided title and content.
+4. User input is received for the title of the blog post they wish to read. The code checks for the existence of a blog post with the given title.
+5. If the blog post exists, its content is read from the file and displayed; otherwise, the user is informed that the post is not found.
+6. User input is taken for the title of the blog post they want to edit. If the blog post exists, its current content is displayed, and the user can enter new content. The new content overwrites the previous content, and a success message is shown. If it doesn't exist, a message informs the user that the blog post isn't found.
+
+Task 8:
