@@ -61,3 +61,7 @@ Task 7:
 6. User input is taken for the title of the blog post they want to edit. If the blog post exists, its current content is displayed, and the user can enter new content. The new content overwrites the previous content, and a success message is shown. If it doesn't exist, a message informs the user that the blog post isn't found.
 
 Task 8:
+1. Created a Flask application (app.py) with Flask and Flask-SocketIO. Defined routes /user1 and /user2 for two users and socket events (join and text) for real-time chat. Set up the app to handle user connections, message broadcasting, and message reception.
+2. Created an HTML template (user1.html) for User 1's chat interface. Included necessary JavaScript libraries for Socket.IO and jQuery. Set up the template to connect to the chat server, display messages, and send messages as User 1.
+3. Created an HTML template (user2.html) for User 2's chat interface. Included necessary JavaScript libraries for Socket.IO and jQuery. Set up the template to connect to the chat server, display messages, and send messages as User 2.
+4. In this final step, we run the Flask application using the socketio.run(app, debug=True) line. This started the Flask development server along with Socket.IO, allowing real-time communication.
