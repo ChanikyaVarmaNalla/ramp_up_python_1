@@ -65,3 +65,14 @@ Task 8:
 2. Created an HTML template (user1.html) for User 1's chat interface. Included necessary JavaScript libraries for Socket.IO and jQuery. Set up the template to connect to the chat server, display messages, and send messages as User 1.
 3. Created an HTML template (user2.html) for User 2's chat interface. Included necessary JavaScript libraries for Socket.IO and jQuery. Set up the template to connect to the chat server, display messages, and send messages as User 2.
 4. In this final step, we run the Flask application using the socketio.run(app, debug=True) line. This started the Flask development server along with Socket.IO, allowing real-time communication.
+
+Task 9:
+1. Defined a class named CustomerAccount to represent a customer account. In the constructor (__init__ method), initialize the account number, balance, and owner's name as instance attributes. The balance attribute is encapsulated with double underscores.
+2. Implemented a get_balance method to retrieve the private balance attribute.
+3. Implemented a set_balance method to set the balance attribute, including validation to ensure that the new balance is not negative.
+4. Created a display_info method that displays the account information, including the account number, owner's name, and balance (retrieved using the get_balance method).
+5. Created an instance of the CustomerAccount class, account1, with an account details. Called the display_info method on account1 to display the initial account information.
+6. Called the set_balance method on account1 to update the balance with positive value. Called the display_info method on account1 again to display the updated account information.
+7. Called the set_balance method on account1 with a negative balance value.
+
+
