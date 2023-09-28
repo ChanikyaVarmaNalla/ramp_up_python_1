@@ -34,4 +34,4 @@ def handle_text(data):
     emit('message', {'msg': msg, 'username': username}, room=other_room)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app)
