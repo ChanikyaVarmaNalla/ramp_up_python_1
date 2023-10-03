@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, redirect, url_for, session, render_te
 from functools import wraps
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Change this to a secret key of your choice
+app.secret_key = 'kingkong'
 
 # Custom decorator to check if a user is authenticated and authorized
 def login_required(f):
