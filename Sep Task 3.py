@@ -17,4 +17,4 @@ if __name__ == "__main__":
     email_extractor = EmailExtractor('document.txt')
     email_addresses = email_extractor.extract_emails()
     for email in email_addresses:
-        print(email)
+        print(email.lower())
